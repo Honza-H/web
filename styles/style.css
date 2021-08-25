@@ -1,27 +1,5 @@
-/*@keyframes "osc-l" {
-	0% {
-		left: 20%;
-	}
-	50% {
-		left: 50%;
-	}
-	100% {
-		left: 20%;
-	}
-}
-@keyframes "osc-r" {
-	0% {
-		left: 80%;
-	}
-	50% {
-		left: 50%;
-	}
-	100% {
-		left: 80%;
-	}
-}*/
 .backg {
-  background-color: #0B3E28;
+  background-color: black;
 }
 
 .navbar-nav {
@@ -31,9 +9,12 @@
   font-size: 17px;
 }
 
-.q {
-  background-color: rgba(0, 0, 0, 0.4);
+.qoot {
+  background-color: white;
+  padding: 11px;
+  font-family: monospace;
 }
+
 
 .col-lg-4 {
   text-align: center;
@@ -44,10 +25,10 @@
   padding: 30px;
 }
 
-.rowz {
+.rady_stranky {
   text-align: center;
   margin: auto;
-  background-color: #2ACC75;
+  background-color: #5114A3;
 }
 
 .card {
@@ -57,26 +38,21 @@
 .ods {
   color: black;
   font-weight: bolder;
-  color: black;
-  font-weight: bolder;
-  background-color: #00A05D;
-  font-family: monospace;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .a {
-  background-color: #2ACC75;
-  border-radius: 12px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b1a8b9), color-stop(#b8a6b4), color-stop(#bda5ad), color-stop(#bfa5a6), to(#bea6a0));
+  background-image: linear-gradient(to bottom, #b1a8b9, #b8a6b4, #bda5ad, #bfa5a6, #bea6a0);
+  border-radius: 120px;
   margin: 5px;
   padding: 18px;
 }
 
 .e {
-  background-color: #2ACC75;
-  border-radius: 12px;
-  margin: 5px;
-  padding: 18px;
-  margin-bottom: 120px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b1a8b9), color-stop(#b8a6b4), color-stop(#bda5ad), color-stop(#bfa5a6), to(#bea6a0));
+  background-image: linear-gradient(to bottom, #b1a8b9, #b8a6b4, #bda5ad, #bfa5a6, #bea6a0);
+  border-radius: 120px;
 }
 
 .mrrg {
@@ -123,7 +99,7 @@
 
 h3 {
   border-bottom-style: solid;
-  border-bottom-color: #006748;
+  border-bottom-color: black;
   font-family: monospace;
 }
 
@@ -137,7 +113,7 @@ h3 {
   font-family: monospace;
 }
 
-input[type=text] {
+input[type="text"] {
   width: 100%;
   padding: 12px;
   border: 2px solid #ccc;
@@ -173,8 +149,8 @@ textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #0B3E28;
+input[type="submit"] {
+  background-color: #0b3e28;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -182,18 +158,18 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #00683b;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #2ACC75;
+  background-color: #BBA1D5;
   padding: 20px;
 }
 
 .acont {
-  background-color: #006748;
+  background-color: #BBA1D5;
 }
 
 .magi {
@@ -215,37 +191,6 @@ input[type=submit]:hover {
   -webkit-filter: blur(10px) contrast(20);
           filter: blur(10px) contrast(20);
   margin-top: 100px;
-}
-
-.blob-1 {
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  background: #000000;
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  left: 20%;
-  -webkit-animation: osc-l 2.7s ease infinite;
-          animation: osc-l 2.7s ease infinite;
-}
-
-.blob-2 {
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  background: #000000;
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  left: 80%;
-  -webkit-animation: osc-r 2.7s ease infinite;
-          animation: osc-r 2.7s ease infinite;
-  background: #ff00bf;
 }
 
 .textt {
@@ -295,5 +240,20 @@ input[type=submit]:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.pedi {
+  padding: 0px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 55px;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pados {
+  margin-bottom: 150px;
 }
 /*# sourceMappingURL=style.css.map */

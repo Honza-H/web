@@ -1,28 +1,7 @@
-/*@keyframes "osc-l" {
-	0% {
-		left: 20%;
-	}
-	50% {
-		left: 50%;
-	}
-	100% {
-		left: 20%;
-	}
-}
-@keyframes "osc-r" {
-	0% {
-		left: 80%;
-	}
-	50% {
-		left: 50%;
-	}
-	100% {
-		left: 80%;
-	}
-}*/
 
 .backg {
-	background-color: #0B3E28;
+	background-color: black;
+	
 }
 .navbar-nav {
 	padding: 10px;
@@ -30,9 +9,11 @@
 	font-weight: 525;
 	font-size: 17px;
 }
-.q {
-	background-color: rgba(0, 0, 0, 0.4);
-}
+.qoot { //footer velikost a barva
+	background-color: white;
+	padding: 11px;
+	font-family: monospace;
+}	
 .col-lg-4 {
 	text-align: center;
 	margin: auto;
@@ -40,35 +21,29 @@
 .text {
 	padding: 30px;
 }
-.rowz {
+.rady_stranky { //pozadi mainu, barva za elem (hlavni)
 	text-align: center;
 	margin: auto;
-	background-color: #2ACC75;
+	background-color: #5114A3;
+	
 }
 .card {
 	margin: auto;
 }
-.ods {
+.ods { //text footeru
 	color: black;
 	font-weight: bolder;
-	color: black;
-	font-weight: bolder;
-	background-color: #00A05D;
-	font-family: monospace;
-	font-size: 18px;
+	font-size: 15px;
 }
 .a {
-	background-color: #2ACC75;
-	border-radius: 12px;
+	background-image: linear-gradient(to bottom, #b1a8b9, #b8a6b4, #bda5ad, #bfa5a6, #bea6a0);
+	border-radius: 120px;
 	margin: 5px;
 	padding: 18px;
 }
 .e {
-	background-color: #2ACC75;
-	border-radius: 12px;
-	margin: 5px;
-	padding: 18px;
-	margin-bottom: 120px;
+	background-image: linear-gradient(to bottom, #b1a8b9, #b8a6b4, #bda5ad, #bfa5a6, #bea6a0);
+	border-radius: 120px;
 }
 .mrrg {
 	margin: 0px !important;
@@ -99,7 +74,7 @@
 }
 h3 {
 	border-bottom-style: solid;
-	border-bottom-color: #006748;
+	border-bottom-color: black;
 	font-family: monospace;
 }
 .abouta {
@@ -109,7 +84,7 @@ h3 {
 	font-size: 60px;
 	font-family: monospace;
 }
-input[type=text] {
+input[type="text"] {
 	width: 100%;
 	padding: 12px;
 	border: 2px solid #ccc;
@@ -139,8 +114,8 @@ textarea {
 	margin-bottom: 16px;
 	resize: vertical;
 }
-input[type=submit] {
-	background-color: #0B3E28;
+input[type="submit"] {
+	background-color: #0b3e28;
 	color: rgb(255, 255, 255);
 	padding: 12px 20px;
 	border: none;
@@ -152,11 +127,11 @@ input[type=submit] {
 }
 .container {
 	border-radius: 5px;
-	background-color: #2ACC75;
+	background-color: #BBA1D5;
 	padding: 20px;
 }
 .acont {
-	background-color: #006748;
+	background-color: #BBA1D5;
 }
 .magi {
 	margin-top: 75px;
@@ -170,36 +145,12 @@ input[type=submit] {
 	position: relative;
 	top: 100%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	background: white;
 	filter: blur(10px) contrast(20);
 	margin-top: 100px;
 }
-.blob-1 {
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	background: #000000;
-	border-radius: 50%;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	left: 20%;
-	animation: osc-l 2.7s ease infinite;
-}
-.blob-2 {
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	background: #000000;
-	border-radius: 50%;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	left: 80%;
-	animation: osc-r 2.7s ease infinite;
-	background: rgb(255, 0, 191);
-}
+
 .textt {
 	font-family: monospace;
 }
@@ -225,4 +176,16 @@ input[type=submit] {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.pedi {
+	padding: 0px;
+  	margin-left: 70px;
+  	margin-right: 70px;
+  	margin-top: 55px;
+}
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pados {
+	margin-bottom: 150px;
 }

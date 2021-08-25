@@ -1,26 +1,17 @@
-$(document).ready(function(){
-    console.log("Site loaded!")
+$(document).ready(function(){       //haha info v konzoli//
+  console.log("Site loaded!")
 })
-function mojefunkce() {
-    alert("Zpráva")
+
+
+function mojefunkce() {         //na .html akci .js popup//
+  alert("Zpráva")
 }
-$(document).ready(function(){
-    $('#btn1').on("click",function(){
-     $('#myImg').toggle('slow');
-    });
+
+
+$(document).ready(function () { 
+  $(document).click(function () {
+     // if($(".navbar-collapse").hasClass("in")){
+       $('.navbar-collapse').collapse('hide');
+     // }
   });
-$(document).keydown(function(event){
-    var keycode = (event.keyCode ? event.keyCode : event.which);
-    if(keycode == '37'){
-        alert('Levá');    
-    }
-    else if(keycode == '38'){
-        alert('Horní');    
-    }
-    else if(keycode == '39'){
-        alert('Pravá');    
-    }
-    else if(keycode == '40'){
-        alert('Dolní');    
-    }
 });
